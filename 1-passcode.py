@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-# This code prints Hello World 4 times
 
-i = 0
+def greeting(name):
+    """Return a personalized greeting."""
+    return f"Hello, {name}! Welcome to the world of Python."
 
-while i < 5:
 
-    print("Hello World")
-
-    i += 1
+print(greeting("John"))
